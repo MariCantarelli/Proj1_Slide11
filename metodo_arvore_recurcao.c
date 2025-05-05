@@ -30,3 +30,11 @@ void f(int n){
     f(n/2);
     }
 }
+
+void f(int n){
+    if (n > 0) {
+        printf("%d\n", n);
+        f(n-1);
+        f(n-1);
+    }
+}
