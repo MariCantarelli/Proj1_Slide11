@@ -22,3 +22,11 @@ void f(int n){
         }
     }
 } 
+
+void f(int n){
+    if (n > 0) {
+    for (int i = 0; i < n; i++)
+    printf("%d\n", n);
+    f(n/2);
+    }
+}
